@@ -17,7 +17,7 @@
       <div id="app">
           <h2>{{title}}</h2>
           <button v-on:click="changeColor">Log Event Info</button>
-          <div class="canvas"></div>
+          <div class="canvas" @mouseover="logCoords"></div>
       </div>
       <script src="app1.js"></script>
 </body>
